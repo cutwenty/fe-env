@@ -1,0 +1,26 @@
+[user]
+  name = hxhgta
+  email = hxhgta@163.com
+
+[alias]
+  co = checkout
+  ci = commit
+  br = branch
+  st = status
+
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim
+
+[color]
+  ui = always
+  status = auto
+  branch = auto
+  interactive = auto
+  diff = auto
+
+[merge]
+  tool = vimdiff
+
+[push]
+  default = upstream
